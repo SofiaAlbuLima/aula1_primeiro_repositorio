@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    color: rgb(255, 192, 20);
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+h1:hover{
+    font-size: 90px;
+    transition: 0.3s;
+}
+/* colunas - inicio */
+.img_p{
+    max-width: 1200px;
+    margin: 5vh auto 0 auto ;
+    display: flex;
+    flex-direction:row;
+    gap: 2vh;
+}
+.coluna-vertical{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.coluna_vertical_suits{
+    display: flex;
+    flex-direction: column;
+}
+/* colunas - fim */
+img{
+    height:min-content;
+    margin-bottom: 2vh;
+}
+h2{
+    font-family: Comic Sans MS;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+p{
+    font-family: Comic Sans MS;
+}
+.breve_descricao{
+    background-color: black;
+    color: white;
+    padding: 2vh;
+    border-radius: 20px;
+}
+.suits_do_batman{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.suits-batman{
+    width: 200px;
+}
+.suits-batman:hover{
+    width: 250px;
+    transition: 0.2s;
+}
+.titulo_suits{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 40px;
+    color: rgb(0, 132, 255);
+}
