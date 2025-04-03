@@ -1,38 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Spice&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 h1{
     font-size: 80px;
-    color: rgb(255, 192, 20);
     background-color: black;
     text-align: center;
     width: 100%;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 h1:hover{
     font-size: 90px;
     transition: 0.3s;
 }
 /* colunas - inicio */
-.img_p{
+.conteudo_site{
     max-width: 1200px;
     margin: 5vh auto 0 auto ;
     display: flex;
     flex-direction:row;
     gap: 2vh;
 }
-.coluna-vertical{
+.coluna_vertical_1{
     display: flex;
     flex-direction: column;
     width: 30%;
 }
-.coluna_vertical_suits{
+.coluna_vertical_2{
     display: flex;
     flex-direction: column;
 }
 /* colunas - fim */
 img{
-    height:min-content;
     margin-bottom: 2vh;
 }
 h2{
@@ -56,15 +60,39 @@ p{
     justify-content: space-between;
 }
 .suits-batman{
-    width: 200px;
+    width: 200px;    
+    height:min-content;
 }
-.suits-batman:hover{
+.figure_suits:hover .suits-batman{
     width: 250px;
     transition: 0.2s;
 }
+.figure_suits:hover .nome_suit{
+    display: flex;
+}
 .titulo_suits{
     text-align: center;
-    font-family: Comic Sans MS;
     font-size: 40px;
     color: rgb(0, 132, 255);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
+.figure_suits{
+    display: grid;
+    grid-row: auto auto;
+}
+.nome_suit{
+    text-align: center;    
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: none;
+    margin-bottom: 2vh;
+}
+
+/* itens do batman - inicio */
+
+
+
+/* itens do batman - fim */
