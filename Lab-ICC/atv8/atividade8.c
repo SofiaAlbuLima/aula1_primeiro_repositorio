@@ -14,5 +14,5 @@ int main(){
         case '/': resultado = operando1 / operando2;
             break;
     }
-    printf("resultado: %.2f", resultado);
+    printf("%.2f", resultado);
 }
