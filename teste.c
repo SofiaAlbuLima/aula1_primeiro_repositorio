@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
-    int x = 2;
-    int* p = &x;
-    printf("x = %d e p = %d\n", x, *p);
+    char ch = '\0';
+    while(ch != 'z'){
+        scanf("%c", &ch);
+        printf("%c\n", ch);
+    }
 }
