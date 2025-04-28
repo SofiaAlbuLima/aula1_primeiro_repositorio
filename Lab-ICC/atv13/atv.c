@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 void swap(int *x, int *y){
-    long variavel_temporaria = *x; //armazenando temporariamente o valor de uma das variaveis
-    *x = *y; //copiando o valor da segunda para a primeira
-    *y = variavel_temporaria; //usando o valor temporario para atualizar a segunda
+    int *variavel_temporaria = x; //armazenando temporariamente o valor de uma das variaveis
+    x = y; //copiando o valor da segunda para a primeira
+    y = variavel_temporaria; //usando o valor temporario para atualizar a segunda
 }
 
 int main(){
@@ -17,7 +17,7 @@ int main(){
 
     int* array[] = {cartaoA, cartaoB, cartaoC};
 
-    for(int i = 3; i > 0; i++){
+    for(int i = 0; i < 3; i++){
         scanf("%d", &acao);
         
         if(acao == -1){
